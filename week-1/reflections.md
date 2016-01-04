@@ -48,3 +48,19 @@ help- enter an argument or option here something like man, gives suggestions on 
 
 #1.4 Forking and Cloning
 
+**Create a new repository**
+
+This is like creating a new project actually that it exactly what this is doing. You want to give it a name and declare permissions about the repo. First you need to be online on github.com and logged in. In the top right hand corner of the profile click on the addition icon and select create new repository, title it and give it permissions.
+
+**Fork**
+
+Forking a repository is making a copy of an in progress project so that you can work on a copy of it and not the original. That way you can use version control to get the copy where you need it without destroying the original in the process. You must first pull up the repository which you would like to fork from the creators account, the upper left hand title should indicate its current repository location. In the upper right corner of the github website you must look for the  fork icon and the words fork and then click the icon. The upper left hand title should then change to reflect a forked copy with your username in the beginning of the name of the directory.
+
+**Clone**
+
+A clone is a copy of the repository usually after the fork on the local machine this is a command line command. In the terminal change into the directory that you would like for the project to go into and type git clone "copy"
+
+On the github website of the project that you just forked in the mid right hand portion of the website you should see an HTTP site and a box with an address inside. If you clikc the arrow button on the side of this box you will clone that repository. On the command line where you typed git clone paste this address and enter. You should view the clone process and in your current directory should be a copy of the project you have just cloned.
+
+I didn't have many problems setting up git and going through this portion everything was pretty clear. I did learn that after you have forked a repository the title in the upper left hand portion of the screen will change.
+
