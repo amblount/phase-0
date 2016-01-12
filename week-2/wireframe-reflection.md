@@ -1,6 +1,6 @@
 #wireframe reflection
 
-<img src="wireframe-blog-index.jpg">
+<img src="imgs/wireframe-blog-index.jpg">
 
 What is a wireframe?
 It is a layout of what the website will look like. It can represent what information will occupy more or less space and give an idea about what is important and what is not important.
