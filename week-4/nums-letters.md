@@ -28,22 +28,33 @@ calculate
 #Minutes in a decade
 
 This is a program
+def ten_years
+minutes_per_hour = 60
+minutes_per_day = minutes_per_hour * 24
+minutes_per_year = minutes_per_day * 365
+minutes_per_ten_years = minutes_per_year * 10
+puts("#{minutes_per_ten_years} minutes per ten years")
+end
+
+ten_years
+
 
 #Reflection
 
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
-
+The same way that a calculator would, you can just use the proper syntax to get it to run properly.
 
 What is the difference between integers and floats?
-
+Integers are numbers without decimals and then there are floats with decimal places.
 
 What is the difference between integer and float division?
-
+integer division is division between two integer numbers and produces an integer as a result, while float division has one or more float numer and produces a float as a result.
 
 What are strings? Why and when would you use them?
-
+Strings are sequences of code with letters and numbers they are like code blocks.
 
 What are local variables? Why and when would you use them?
-
+local variables are variables that are defined inside a method and are called inside that method.
 
 How was this challenge? Did you get a good review of some of the basics?
+Yeah, I thought it helped me remember the basics of ruby code like methods and strings, and calling variables.
