@@ -4,3 +4,6 @@
 
 
 # Your Solution Below
+def good_guess?(integer)
+  integer == 42
+end
