@@ -20,4 +20,3 @@ describe 'get_grade' do
     expect(get_grade(50)).to eq "F"
   end
 end
-Status API Training Shop Blog About Pricing
