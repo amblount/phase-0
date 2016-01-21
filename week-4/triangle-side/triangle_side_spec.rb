@@ -52,4 +52,4 @@ describe 'valid_triangle?' do
     # for every permutation of [1, 1, 2.01], which is what we're testing.
   end
 end
-Status API Training Shop Blog About Pricing
+
