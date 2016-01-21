@@ -1,5 +1,7 @@
 #Solution Below
-
+first_name = "alivia"
+last_name = "blount"
+age = 21
 
 
 
