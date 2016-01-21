@@ -2,7 +2,7 @@
 
 
 # I worked on this challenge [by myself, with: ].
-#bethelhem
+#Bethelhem
 
 # Your Solution Below
 def get_grade(number)
