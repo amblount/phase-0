@@ -7,6 +7,9 @@
   #   return false
   # elsif (a == b) || (b == c) || (a == c)
   #   return true
+  #def who_likes_pizza?(person)
+#   person != "tyler"
+# end
 
 
 # Your Solution Below
@@ -15,3 +18,5 @@ def valid_triangle?(a, b, c)
   # Your code goes here!
 a+b > c && a+c > b && b+c >a
 end
+
+#
