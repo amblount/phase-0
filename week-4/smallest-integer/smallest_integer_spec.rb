@@ -37,4 +37,4 @@ describe 'smallest_integer' do
     expect(smallest_integer(array)).to eq -100
   end
 end
-Status API Training Shop Blog About Pricing
+
