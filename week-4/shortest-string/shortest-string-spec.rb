@@ -25,4 +25,4 @@ describe 'shortest_string' do
     expect(shortest_string(array)).to eq 'a'
   end
 end
-Status API Training Shop Blog About Pricing
+
