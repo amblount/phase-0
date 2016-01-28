@@ -1,4 +1,4 @@
-require_relative "my_solution.rb"
+require_relative "my_solution"
 
 describe 'mode' do
   let(:array_1) { [1, 2, 3, 4, 5, 5, 7] }
@@ -11,6 +11,7 @@ describe 'mode' do
 
   it "requires a single argument" do
     expect(method(:mode).arity).to eq 1
+
   end
 
   it "returns the correct mode when mode is a unique integer" do
@@ -19,6 +20,10 @@ describe 'mode' do
 
   it "returns the correct mode when mode is not a unique integer" do
     expect(mode(array_2)).to eq [5,6]
+
   end
 
+  it "returns the correct mode for strings" do
+    expect(mode(array_3)).to eq ["banana", "cherry"]
+  end
 end
