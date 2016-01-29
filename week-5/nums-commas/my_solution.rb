@@ -42,21 +42,21 @@ def separate_comma(number)
   array = number.to_s.split('') #creates an array from number w/ digits
   number_commas = array.size/3.0 #how many commas
   if array.size < 4 #this is a 3 digit number
-    p number.to_s #return number no comma needed
+    return number.to_s #return number no comma needed
   elsif array.size%3 == 0
     n = -4
     (number_commas.to_i-1).times do |i|
       array.insert(n, ',')
       n -= 4
     end
-    p array.join("")
+    return array.join("")
   else
       n = -4
     number_commas.to_i.times do |i|
       array.insert(n, ',')
       n -= 4
     end
-  p array.join("")
+  return array.join("")
   end
 end
 
@@ -80,4 +80,4 @@ I started with creating an array but that didn't work with the split method whic
 
 Do you feel your refactored solution is more readable than your initial solution? Why?
 yes, I had to fix the code to make sure that it would run.
- =end
+=end
