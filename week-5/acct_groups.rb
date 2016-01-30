@@ -135,4 +135,19 @@ I do realize now that a big problem I was having was assigning a set value to a 
 
 There must be a better way to loop through these steps to create a new hash named something different each time.
 
+What was the most interesting and most difficult part of this challenge?
+Pushing into a hash was really difficult for me to grasp or maybe from an array into a hash.
+
+Do you feel you are improving in your ability to write pseudocode and break the problem down?
+Sort of. I have to refer to the ruby docs to figure out which methods work on which data strcutures so I keep modifying my pseudocode.
+
+Was your approach for automating this task a good solution? What could have made it even better?
+I have not yet figured out how to refactor my solution. So uh?
+
+What data structure did you decide to store the accountability groups in and why?
+hash, you have a name and an accountability group number
+
+What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+nothing new, but I thought about the problem in a different way.
+
 =end
