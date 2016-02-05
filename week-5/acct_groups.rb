@@ -127,7 +127,17 @@ end
 
 acct_group(students)
 
+#refactor
+#def acct_groups(sealions)
+#   group = []
 
+
+#   sealions.each_slice(4) { |x| group << x }
+#   p group
+# end
+
+
+# acct_groups(cohort)
 
 =begin
 I am new to hashes so there are things I don't understand

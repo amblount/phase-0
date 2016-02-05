@@ -19,32 +19,44 @@
 #array of minimum size with additional padding if required
 # What are the steps needed to solve the problem?
 #take in array and
+=begin
+pseudocode
+#create destructive + non-destructive methods
+#input for those methods is an array, mn-len, value to pad with
+#compare the array length with the min-size to check if we need padding
+# if we need padding apply (min-size - array.len ) = number
+# value * print it number of times
+#return array
+#lookup binding.pry
+
+=end
+
 
 
 # 1. Initial Solution
 def pad!(array, min_size, value = nil) #destructive
   size = array.length
-  if min_size <= size
-    return array
-  else
-    additions = min_size - size
-    return array.push(value * additions)
+  if min_size > size
+      additions = min_size - size
+      additions.times do
+        array.push(value)
+      end
   end
   # Your code here
+  return array
 end
 
 def pad(array, min_size, value = nil) #non-destructive
   new_array = Array.new(array)
   size = new_array.length
-  if min_size <= size
-    return new_array
-  else
-    additions = min_size - size
-    return new_array.push(value * additions)
+  if min_size > size
+      additions = min_size - size
+      additions.times do
+        new_array.push(value)
+      end
   end
-
-
   # Your code here
+  return new_array
 end
 
 
