@@ -7,7 +7,7 @@ array = [[1,2], ["inner", ["eagle", "par", ["FORE", "hook"]]]]
 # attempts:
 # ============================================================
 
-
+p array[1][1][2][0]
 
 # ============================================================
 
@@ -19,7 +19,7 @@ hash = {outer: {inner: {"almost" => {3 => "congrats!"}}}}
 # attempts:
 # ============================================================
 
-
+ p hash[:outer][:inner]["almost"][3]
 
 # ============================================================
 
@@ -32,7 +32,7 @@ nested_data = {array: ["array", {hash: "finished"}]}
 # attempts:
 # ============================================================
 
-
+ p nested_data[:array][1][:hash]
 
 # ============================================================
 
@@ -85,6 +85,9 @@ adding_five_fun.iteration_exercise
 # number_array[1].each { |a| a + 5}
 # end
 
+number_array.each {|element| puts element}
+
+
 # a = [ "a", "b", "c", "d" ]
 # a.map! {|x| x + "!" }
 # a #=>  [ "a!", "b!", "c!", "d!" ]
@@ -132,3 +135,21 @@ adding_five_fun.iteration_exercise
 # # Bonus:
 
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
+
+startup_names.each {|a| puts a}
+
+#reflection
+=begin
+
+What are some general rules you can apply to nested arrays?
+puts will print everything you iterate through even nested items and p will not. I wonder if there is a method you can use to return puts items without printing to the console like saving everything to a variable or pushing it into an array.
+
+What are some ways you can iterate over nested arrays?
+array.each {|a| puts a}
+
+Did you find any good new methods to implement or did you re-use one you were already familiar with?
+I reused each
+
+What was it and why did you decide that was a good option?
+An enumerable, it was a good option becasue it does the job.
+=end
