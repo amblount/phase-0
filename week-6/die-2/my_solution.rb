@@ -14,6 +14,7 @@
     #save the input values in an array = labels
     # @sides = array.size
     # @roll give one of the sides
+    #try
 
 
 # Initial Solution
