@@ -28,21 +28,14 @@ terah.children.carson = {name:"Carson",}
 terah.children.carter = {name:"Carter",}
 terah.children.colton = {name:"Colton",}
 adam.children = terah.children
-
-
-
-
-
-
-
-
-
-
-
 // __________________________________________
 // Reflection: Use the reflection guidelines
-//
-//
+//What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+// I had trouble passing the children properties test. I continued to try and and add properties to the terah.children property. I had to go back to creating the terah.children = {} object and I initially took out the property.
+// How difficult was it to add and delete properties outside of the object itself?
+// Adding and deleting was not very difficult.
+// What did you learn about manipulating objects in this challenge?
+//I learned about adding properties to objects.
 //
 //
 //
