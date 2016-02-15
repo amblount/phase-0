@@ -28,17 +28,19 @@
 //
 
 // Initial Code
-function specialist (name) {
+function Specialist (name) {
   this.name = name; //doctors key
   this.specialty = doctor[name] ; //doctors value
-  this.resident = match; // call function match using students hash
+  this.resident = match(); // call function match using students hash
   this.hospital: "Children's Hospital and Research Center"
 } //random selection form hospital array
+
+
 
 var hospitals = []
 var school = []
 
-function resident (name) {
+function Resident (name) {
   this.name = name; // students key
   this.intended_specialty = selectSpecialty; //use function to figure out specialty based on student value ket word
   this.school = rand[school]; //random from school array
