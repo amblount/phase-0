@@ -56,138 +56,197 @@ var votes = {
 };
 
 //Tally the votes in voteCount.
-var voteCount = {
+// var voteCount = {
 
 
-  president: {"Bob": 0,
-             "Mary": 0,
-             "Cindy": 0,
-              "Louise":0,
-              "Fred": 0,
-              "Steve": 0,
-              "Wesley": 0,
-              "Tracy":  0,
-              "Paulina": 0,
-              "Ivy": 0,},
+//   president: {"Bob": 0,
+//              "Mary": 0,
+//              "Cindy": 0,
+//               "Louise":0,
+//               "Fred": 0,
+//               "Steve": 0,
+//               "Wesley": 0,
+//               "Tracy":  0,
+//               "Paulina": 0,
+//               "Ivy": 0,},
 
-  vicePresident: {"Devin": 0,
-                 "Hermann": 0,
-                 "John": 0,
-                 "Alex": 0,
-                 "Kerry": 0,
-                 "Mary": 0,
-                 "Oscar": 0,
-                 "Nate": 0,
-                 "Steve": 0,
-                 "Yvonne": 0,
-                 "Zane": 0,},
+//   vicePresident: {"Devin": 0,
+//                  "Hermann": 0,
+//                  "John": 0,
+//                  "Alex": 0,
+//                  "Kerry": 0,
+//                  "Mary": 0,
+//                  "Oscar": 0,
+//                  "Nate": 0,
+//                  "Steve": 0,
+//                  "Yvonne": 0,
+//                  "Zane": 0,},
 
-  secretary: {"Devin": 0,
-                 "Gail": 0,
-                 "Fred": 0,
-                 "Alex": 0,
-                 "Bob": 0,
-                 "Mary": 0,
-                 "Oscar": 0,
-                 "Nate": 0,
-                 "Ivy": 0,
-                 "Valorie": 0,},
+//   secretary: {"Devin": 0,
+//                  "Gail": 0,
+//                  "Fred": 0,
+//                  "Alex": 0,
+//                  "Bob": 0,
+//                  "Mary": 0,
+//                  "Oscar": 0,
+//                  "Nate": 0,
+//                  "Ivy": 0,
+//                  "Valorie": 0,},
 
-  treasurer: {"Kerry": 0,
-                 "Ivy": 0,
-                 "Bob": 0,
-                 "Fred": 0,
-                 "Gail": 0,
-                 "Tracy": 0,
-                 "Xavier": 0,
-                 "Hermann": 0,
-                 "Mary": 0,},}
+//   treasurer: {"Kerry": 0,
+//                  "Ivy": 0,
+//                  "Bob": 0,
+//                  "Fred": 0,
+//                  "Gail": 0,
+//                  "Tracy": 0,
+//                  "Xavier": 0,
+//                  "Hermann": 0,
+//                  "Mary": 0,},}
 
-//votes[name]["president"][electee] === votecount["president"][name] --> update value
-//votes["Bob"]["President"]
+// //votes[name]["president"][electee] === votecount["president"][name] --> update value
+// //votes["Bob"]["President"]
 
-for (var name in position in votes) {
-     var name = votes[president];
-       if (voteCount.president.name == "Bob") {
-         voteCount.president.Bob += 1;
-         console.log(voteCount);
-       };
-};
-
-
-var vote = (votes.Bob.president);
-voteCount.president.vote += 1;
-console.log(voteCount.president.vote)
+// for (var name in position in votes) {
+//      var name = votes[president];
+//        if (voteCount.president.name == "Bob") {
+//          voteCount.president.Bob += 1;
+//          console.log(voteCount);
+//        };
+// };
 
 
+// var vote = (votes.Bob.president);
+// voteCount.president.vote += 1;
+// console.log(voteCount.president.vote)
 
-// for(var category in window.books) {
-//   if(window.books.hasOwnProperty(category)) {
-//     console.log(category); // will log "Business Books" etc.
-//     for (var i = 0, j = window.books[category].length; i < j; i++) {
-//       console.log("Title: %s, Description: %s", window.books[category][i].Title, window.books[category][i].Description);
-//     }
-//   }
-// }
 
-// // if (condition) {
-// //     block of code to be executed if the condition is true
+
+// // for(var category in window.books) {
+// //   if(window.books.hasOwnProperty(category)) {
+// //     console.log(category); // will log "Business Books" etc.
+// //     for (var i = 0, j = window.books[category].length; i < j; i++) {
+// //       console.log("Title: %s, Description: %s", window.books[category][i].Title, window.books[category][i].Description);
+// //     }
+// //   }
 // // }
-// console.log(voteCount.president.Bob);
+
+// // // if (condition) {
+// // //     block of code to be executed if the condition is true
+// // // }
+// // console.log(voteCount.president.Bob);
 
 
 
- /* The name of each student receiving a vote for an office should become a property
-of the respective office in voteCount.  After Alex's votes have been tallied,
-voteCount would be ...
-  var voteCount = {
-    president: { Bob: 1 },
-    vicePresident: { Devin: 1 },
-    secretary: { Gail: 1 },
-    treasurer: { Kerry: 1 }
-  }
-*/
+//  /* The name of each student receiving a vote for an office should become a property
+// of the respective office in voteCount.  After Alex's votes have been tallied,
+// voteCount would be ...
+//   var voteCount = {
+//     president: { Bob: 1 },
+//     vicePresident: { Devin: 1 },
+//     secretary: { Gail: 1 },
+//     treasurer: { Kerry: 1 }
+//   }
+// */
 
 
-/* Once the votes have been tallied, assign each officer position the name of the
-student who received the most votes. */
-// var officers = {
-//   president: undefined,
-//   vicePresident: undefined,
-//   secretary: undefined,
-//   treasurer: undefined
-// }
+// /* Once the votes have been tallied, assign each officer position the name of the
+// student who received the most votes. */
+// // var officers = {
+// //   president: undefined,
+// //   vicePresident: undefined,
+// //   secretary: undefined,
+// //   treasurer: undefined
+// // }
 
-// Pseudocode
-/*
+// // Pseudocode
+// /*
 
-*/
+// */
 
 // __________________________________________
 // Initial Solution
 
+var voteCount = {
 
 
+  president: {},
 
+  vicePresident: {},
 
+  secretary: {},
 
+  treasurer: {}
 
+  //function called set candidates
+ for(var voter in votes) {
+   // this returns the info from each voter from votes
+    var individualVote = votes[voter];
+
+    for(var position in individualVote) {
+      // this is going through the info frmo each voter pres, vice, sec, treasurer... who did they vote for?
+        var positionPerson = position; // president, vice, secretary
+        var personVotedFor = individualVote[position];
+        var positionPresident = voteCount["president"]
+
+        voteCount.president = personVotedFor
+
+        // need to update the objects
+
+        if (voteCount.president[officer]) {
+          voteCOunt.president[officer] += 1;
+        }
+        else {
+          voteCount.president[officer] = 1;
+        }
+
+      if (positionPerson == "president"){
+        positionPresident.push(personVotedFor += 1)
+      }
+   }
+ }
+
+console.log(voteCount);
+
+};
 // __________________________________________
 // Refactored Solution
 
+var voteCount = {
 
 
+  president: {},
 
+  vicePresident: {},
 
+  secretary: {},
 
+  treasurer: {}
+
+};
+
+for (var voter in vote) {
+  var slate = votes[voter]
+  for(var office in slate) {
+    var officer = slate[office]
+     if (voteCount[office][officer]) {
+       voteCount[office][officer] += 1;
+     }
+    else {
+      voteCount[office][officer] = 1;
+    }
+  }
+}
+
+console.log(voteCount);
 // __________________________________________
 // Reflection
-
-
-
-
-
-
+// What did you learn about iterating over nested objects in JavaScript?
+// I learned that you should think about the
+//for .. in loops and what you are returning so that you can plan for saving that information.
+// Were you able to find useful methods to help you with this?
+// for .. in loops were super helpful and there are certain things that I was stuck during the initial portion of trying to figure it out.
+// What concepts were solidified in the process of working through this challenge?
+// I understand for .. in loops. But his challenge was such a pain, it was so hard.
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
