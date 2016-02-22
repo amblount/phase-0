@@ -1,3 +1,4 @@
+=begin
 # I worked on this challenge [by myself,].
 # This challenge took me [#] hours.
 
@@ -12,6 +13,7 @@
 
 
 # Initial Solution
+=end
 
 def is_fibonacci?(num)
   if num == 0
