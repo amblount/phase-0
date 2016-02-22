@@ -34,7 +34,7 @@ Consider a grocery list. If you think about it, a grocery list has many items. I
 
 ## Release 5: Complex Databases
 
-![alt text](imgs/complex_databases)
+![alt text](imgs/complex_databases.png)
 
 
 ## Release 6: Reflect
