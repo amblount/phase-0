@@ -74,3 +74,20 @@ var GuessingGame = Class {
 
 };
 
+
+/*
+What concepts did you solidify in working on this challenge?
+  I had more practice with javascript classes and symols< I guess these are just technically just objects.
+
+What was the most difficult part of this challenge?
+  Thinking about what the names of the ruby objects were and how I culd swap the way that I used a method and convert it into a js function.
+
+Did you solve the problem in a new way this time?
+  No I just used the same method I used before it was more like a code conversion.
+
+Was your pseudocode different from the Ruby version?
+  No I used the same pseduocode.
+
+What was the same and what was different?
+  The idea of a class was the same but the way that you implement symbols in js is a lot more complicated from the way that you use symbols in ruby, ruby is a lot easier.
+*/
