@@ -26,8 +26,22 @@ $('body').css({'background-color': 'pink'})
 //RELEASE 4: Event Listener
   // Add the code for the event listener here
 
+  //new image
+   $('img').on('mouseleave', function(e){
+    e.preventDefault()
+    $(this).attr('src', 'https://www.czs.org/custom.czs/files/fa/faf67051-9dd2-49c6-83bc-47e3be9731a5.jpg')
+  })
+
+   // old image
+   $('img').on('mouseleave', function(e){
+    e.preventDefault()
+    $(this).attr('src', 'dbc_logo.png')
+  })
+
 
 //RELEASE 5: Experiment on your own
+
+
 
 
 
